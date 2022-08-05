@@ -6,3 +6,6 @@ stock_return_cnn/Charts/
 stock_return_cnn/ec2train1.py
 stock_return_cnn/DataBatches
 stock_return_cnn/__pycache__
+stock_return_cnn/ModelData/obs_test.csv
+stock_return_cnn/ModelData/obs_train.csv
+stock_return_cnn/ModelData/obs_val.csv
