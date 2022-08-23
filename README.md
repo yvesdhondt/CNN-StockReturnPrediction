@@ -2,6 +2,10 @@
 
 This repository explores whether stock returns can be accurately predicted based on CNN image classification.
 
+# Code location
+
+All code is located in the /stock_return_cnn folder.
+
 # Necessary packages
 
 The following packages are required to run all the code from this repository:
@@ -32,7 +36,7 @@ To ensure that the project runs correctly, download the data from the above link
 The notebooks are numbered in the order that they should be executed. Notebooks 0 and 1 have to do with turning the raw data into image files and performing some basic EDA. As this is a step that takes a lot of time (depending on the machine a few hours to a full day), a folder with already processed images is provided.
 
 - The folder "ModelData", contains the .csv files that outline where the train, test, & validation data can be found as well as the labels.
-- The folder "SampleData", contains all the area chart and GADF image files. If you decide to skip over running notebooks 0 & 1 than you simply have to **RENAME /SampleData to /Charts** and then you should be able to run notebooks 2 and beyond without issue.
+- The folder "stock_return_cnn/SampleData.zip", contains all the area chart and GADF image files. If you decide to skip over running notebooks 0 & 1 than you simply have to **UNZIP AND THEN RENAME /SampleData to /Charts** and then you should be able to run notebooks 2 and beyond without issue.
 
 # Hyperparameter Tuning
 
